@@ -780,6 +780,9 @@
         
         return KIFTestStepResultSuccess;
     }];
+    
+    [self waitForTimeInterval:0.1]; // Let things settle.
+    
 
     return cell;
 }
